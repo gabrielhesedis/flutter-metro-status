@@ -1,16 +1,4 @@
-# future_rest
+# flutter-metro-status
+App de exemplo feito durante o treinamento introdutório de Flutter que exibe o status de cada linha do metrô de São Paulo.
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Para rodar o app corretamente, é necessário instalar e rodar a API [gabrielhesedis/node-metro-status](https://github.com/gabrielhesedis/node-metro-status/tree/master) localmente (via [ngrok](https://www.npmjs.com/package/ngrok)) ou em algum servidor nodeJS e adicionar a URL na chamada de endpoint do app (no arquivo *lib/main.dart*).
